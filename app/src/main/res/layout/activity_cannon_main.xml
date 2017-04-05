@@ -14,6 +14,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
+        android:id="@+id/topLevelLayout"
         android:layout_height="0dp"
         android:layout_weight="9"></LinearLayout>
 
@@ -22,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#000000">
+        android:background="#0c00ef">
 
         <TextView
             android:layout_width="0dp"
@@ -30,12 +31,16 @@
             android:text="Angel: 90"
             android:id="@+id/textView"
             android:layout_weight="1"
-            android:textColor="#000000" />
+            android:textColor="#f70606"
+            android:textSize="26dp"
+            android:textAlignment="center"
+            android:background="#5986c6" />
 
         <SeekBar
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/seekBar"
+            android:max="90"
             android:layout_weight="8" />
 
         <LinearLayout
@@ -51,7 +56,9 @@
                 android:id="@+id/button"
                 android:layout_weight="1"
                 android:textColor="#000000"
-                android:background="#fb0101" />
+                android:background="#fb0101"
+                android:textSize="32dp"
+                android:textAlignment="center" />
 
         </LinearLayout>
     </LinearLayout>
